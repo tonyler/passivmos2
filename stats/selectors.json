@@ -1,0 +1,30 @@
+{
+    "projects": {
+      "atom": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(38) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price": "#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(38) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "saga": {
+        "selector_apr": "#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(146) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(146) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "osmo": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(126) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(126) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "tia": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(26) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(26) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "juno": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(81) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(81) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "chihuahua": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(29) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(29) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      }
+  }
+}
+    
+  

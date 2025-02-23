@@ -1,0 +1,73 @@
+{
+    "projects": {
+      "atom": {
+        "prefix": "cosmos",
+        "api": [
+            "https://cosmoshub.rest.lava.build",
+            "https://cosmos-rest.publicnode.com",
+            "https://rest.cosmos.directory/cosmoshub",
+            "https://cosmos.api.silknodes.io"
+        ],
+        "denom": "1000000",
+        "coingecko": "cosmos",
+        "osmosis": "atom"
+      },
+      "saga": {
+        "prefix": "saga",
+        "api": [
+            "https://rpc.saga.nodestake.org",
+            "https://saga-api.stakeandrelax.net",
+            "https://saga-api.chainroot.io",
+            "https://rpc.saga.bronbro.io:443",
+            "https://rpc.saga.goldenratiostaking.net"
+        ],
+        "denom": "1000000",
+        "coingecko": "saga-2",
+        "osmosis": "saga"
+      },
+      "osmo": {
+        "prefix": "osmo",
+        "api": [
+            "https://osmosis-api.polkachu.com",
+            "https://lcd.osmosis.zone",
+            "https://osmosis-rest.publicnode.com"
+        ],
+        "denom": "1000000",
+        "coingecko": "osmosis",
+        "osmosis":"osmo"
+      },
+      "tia": {
+        "prefix": "celestia",
+        "api": [
+            "https://api.lunaroasis.net",
+            "https://api.celestia.nodestake.top"
+          ],
+        "denom": "1000000",
+        "coingecko": "celestia",
+        "osmosis":"tia"
+      },
+      "juno": {
+        "prefix": "juno",
+        "api": [
+            "https://juno-api.polkachu.com",
+            "https://juno-rest.publicnode.com",
+            "https://rest-juno.goldenratiostaking.net"
+        ],
+        "denom": "1000000",
+        "coingecko": "juno-network",
+        "osmosis":"juno"
+      },
+      "chihuahua": {
+        "prefix": "chihuahua",
+        "api": [
+            "https://chihuahua-api.polkachu.com",
+            "https://chihuahua-rest.publicnode.com"
+        ],
+        "denom": "1000000",
+        "coingecko": "chihuahua-token",
+        "osmosis":"huahua"
+      }
+  }
+}
+    
+  
