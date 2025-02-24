@@ -1,26 +1,34 @@
 {
     "atom": {
-        "APR": 19.62,
-        "Price": 4.92
+        "APR": 19.49,
+        "Price": 4.68
     },
     "saga": {
-        "APR": 5.24,
-        "Price": 0.639494
+        "APR": 5.21,
+        "Price": 0.599317
     },
     "osmo": {
-        "APR": 10.37,
-        "Price": 0.343342
+        "APR": 10.36,
+        "Price": 0.344242
     },
     "tia": {
         "APR": 10.87,
-        "Price": 3.74
+        "Price": 3.47
     },
     "juno": {
-        "APR": 21.45,
-        "Price": 0.140539
+        "APR": 21.5,
+        "Price": 0.129432
     },
     "chihuahua": {
-        "APR": 9.78,
-        "Price": 2.871e-05
+        "APR": 9.87,
+        "Price": 2.855e-05
+    },
+    "elys": {
+        "APR": 51.65,
+        "Price": 0.243184
+    },
+    "dymension": {
+        "APR": 3.39,
+        "Price": 0.452442
     }
 }

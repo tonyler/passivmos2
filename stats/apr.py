@@ -8,8 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 file_path = 'selectors.json'
-with open(file_path, 'r') as file:
-    config = json.load(file)
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run in headless mode
@@ -20,6 +18,10 @@ chrome_options.add_argument("--disable-extensions")  # Disable extensions
 chrome_options.add_argument("--disable-notifications")  # Disable notifications
 
 def scrape_aprs():
+
+    with open(file_path, 'r') as file:
+        config = json.load(file)
+
     try:
         driver = webdriver.Chrome(options=chrome_options)
         print("WebDriver initialized successfully for APRs.")

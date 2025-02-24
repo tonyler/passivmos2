@@ -23,6 +23,14 @@
       "chihuahua": {
         "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(29) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
         "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(29) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "elys": {
+        "selector_apr":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(51) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price":"#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(51) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
+      },
+      "dymension":{
+        "selector_apr" : "#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(48) > div > span > div > div.col-9 > div > ul > li:nth-child(2) > div > strong",
+        "selector_price" : "#root > div > div > div.g-4.justify-content-center.row.row-cols-xxl-4.row-cols-lg-3.row-cols-sm-2.row-cols-1 > div:nth-child(48) > div > span > div > div.col-9 > div > ul > li:nth-child(1) > div > strong"
       }
   }
 }

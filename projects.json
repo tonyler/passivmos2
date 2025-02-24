@@ -1,7 +1,10 @@
 {
     "projects": {
       "atom": {
-        "prefix": "cosmos",
+        "prefix": {
+          "value": "cosmos",
+          "type": "cosmos"
+        },
         "api": [
             "https://cosmoshub.rest.lava.build",
             "https://cosmos-rest.publicnode.com",
@@ -13,7 +16,10 @@
         "osmosis": "atom"
       },
       "saga": {
-        "prefix": "saga",
+        "prefix": {
+          "value": "saga",
+          "type": "cosmos"
+        },
         "api": [
             "https://rpc.saga.nodestake.org",
             "https://saga-api.stakeandrelax.net",
@@ -26,7 +32,10 @@
         "osmosis": "saga"
       },
       "osmo": {
-        "prefix": "osmo",
+        "prefix": {
+          "value": "osmo",
+          "type": "cosmos"
+        },
         "api": [
             "https://osmosis-api.polkachu.com",
             "https://lcd.osmosis.zone",
@@ -34,20 +43,26 @@
         ],
         "denom": "1000000",
         "coingecko": "osmosis",
-        "osmosis":"osmo"
+        "osmosis": "osmo"
       },
       "tia": {
-        "prefix": "celestia",
+        "prefix": {
+          "value": "celestia",
+          "type": "cosmos"
+        },
         "api": [
             "https://api.lunaroasis.net",
             "https://api.celestia.nodestake.top"
           ],
         "denom": "1000000",
         "coingecko": "celestia",
-        "osmosis":"tia"
+        "osmosis": "tia"
       },
       "juno": {
-        "prefix": "juno",
+        "prefix": {
+          "value": "juno",
+          "type": "cosmos"
+        },
         "api": [
             "https://juno-api.polkachu.com",
             "https://juno-rest.publicnode.com",
@@ -55,19 +70,50 @@
         ],
         "denom": "1000000",
         "coingecko": "juno-network",
-        "osmosis":"juno"
+        "osmosis": "juno"
       },
       "chihuahua": {
-        "prefix": "chihuahua",
+        "prefix": {
+          "value": "chihuahua",
+          "type": "cosmos"
+        },
         "api": [
             "https://chihuahua-api.polkachu.com",
             "https://chihuahua-rest.publicnode.com"
         ],
         "denom": "1000000",
         "coingecko": "chihuahua-token",
-        "osmosis":"huahua"
-      }
+        "osmosis": "huahua"
+      },
+      "elys": {
+        "prefix": {
+          "value": "elys",
+          "type": "cosmos"
+        },
+        "api": [
+            "https://elys-mainnet-api.itrocket.net",
+            "https://elys-api.polkachu.com",
+            "https://elys-rest.publicnode.com"
+        ],
+        "denom": "1000000",
+        "coingecko": "elys",
+        "osmosis": "elys"
+      },
+       "dymension": {
+          "prefix": {
+            "value": "dym",
+            "type": "evm"
+          },
+          "api": [
+              "https://dymension.api.kjnodes.com:443",
+              "https://api.dymension.nodestake.org",
+              "https://dymension-api.lavenderfive.com:443",
+              "https://dymension-rest.publicnode.com"
+          ],
+          "denom": "1000000000000000000",
+          "coingecko": "dymension",
+          "osmosis": "dym"
+        }     
   }
 }
-    
-  
+

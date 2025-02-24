@@ -17,7 +17,7 @@ def staked_amount(asked_addies):
                     total = 0
                     url = f"{api}/cosmos/staking/v1beta1/delegations/{address}"
                     try:
-                        response = requests.get(url)
+                        response = requests.get(url, timeout = 10)
                         data = response.json()
                         for i in range(0,len(data['delegation_responses'])):
                             balance = data['delegation_responses'][i]['balance']['amount']
@@ -25,8 +25,7 @@ def staked_amount(asked_addies):
                         staked_dict[project] += total
                         break
                     except Exception as e:
-                        if not isinstance(e, requests.exceptions.RequestException):
-                            print(f"Error: {e}")
+                        print(f"Error: {e}")
 
     return staked_dict
 

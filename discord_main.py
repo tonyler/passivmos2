@@ -2,6 +2,7 @@ import json
 import discord
 from discord.ext import commands 
 from datetime import datetime
+import os 
 
 from user_input import user_interface
 from api_checker import staked_amount
@@ -13,9 +14,11 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='/', intents=intents)
 
 file_path = 'stats/stats.json'
-with open(file_path, 'r') as file:
-    config = json.load(file)
+from dotenv import load_dotenv
+load_dotenv()
 
+
+bot_token = os.getenv("DISCORD_KEY")
 
 @bot.command()
 async def p(ctx, *arg):
@@ -86,8 +89,23 @@ async def f(ctx, *arg):
 
 @bot.command()
 async def helpp(ctx):
-    await ctx.send(f"Send /f and one or more cosmos addresses seperated with space\nThe bot finds the addresses from other cosmos networks and calculates your Annual Income")
+    await ctx.send(f"Γράψε /f και cosmos διευθύνσεις (με space) με διαφορετικό seed phrase ή derivation path")
 
-bot.run("INSERT DISCORD BOT TOKEN")
+
+@bot.command()
+async def check(ctx):
+    message = "Stats used atm:\n\n"
+    message += "Project    |  APR   |  Price  |\n"
+    message += "-----------|--------|---------|\n"
+
+    with open(file_path,'r') as file: 
+        config = json.load(file)
+
+    for project in config:
+        message += f"{project:<10} | {round(float(config[project]["APR"]), 2):<5}% |  {round(float(config[project]['Price']),2)}$ \n"
+    await ctx.send(f"```\n{message}\n```")
+
+
+bot.run(bot_token)
 
 
